@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #182B3D; /* Cold */
+    color: #571616; /* Snowfall */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #253D62; /* Freeze */
+    color: #C1C1C1; /* Snowfall */
+    text-align: center;
+    padding: 1rem;
+    width: 90%;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+nav.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #494D5F; /* Pattern */
+    padding: 1rem 0;
+    gap: 2rem;
+    border-radius: 30px;
+    margin: 1rem auto 2rem auto;
+}
+.navbar a {
+    text-decoration: none;
+    color: #C1C1C1; /* Snowfall */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar a:hover {
+    color: #5F7082; /* Frost */
+}
+
+/* Sinopse com poster lateral */
+.section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #253D62; /* Freeze */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    gap: 2rem;
+    color: #C1C1C1; /* Snowfall */
+}
+.section h2 {
+    margin-bottom: 1rem;
+    color: #C1C1C1; /* Snowfall */
+    border-bottom: 2px solid #5F7082; /* Frost */
+    padding-bottom: 0.3rem;
+}
+.section p {
+    flex: 1;
+}
+
+/* Poster */
+.poster img {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Elenco */
+.elenco-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/* Cards de elenco */
+.card {
+    background: #494D5F; /* Pattern */
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #5F7082; /* Frost */
+    color: #C1C1C1; /* Snowfall */
+}
+.card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Fotos de personagem antigo e atual */
+.character-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+.character {
+    background: #5F7082; /* Frost */
+    border: 2px solid #494D5F; /* Pattern */
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    width: 150px;
+    color: #C1C1C1;
+}
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Galeria */
+.gallery {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.gallery img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Contato */
+#contato a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.7rem 1.2rem;
+    background: #253D62; /* Freeze */
+    color: #C1C1C1; /* Snowfall */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+#contato a:hover {
+    background: #5F7082; /* Frost */
+}
+
+/* Footer */
+footer {
+    background-color: #182B3D; /* Cold */
+    color: #C1C1C1; /* Snowfall */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
